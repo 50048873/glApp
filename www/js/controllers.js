@@ -15,13 +15,19 @@ angular.module('starter.controllers', [])
 	};
 })
 
-.controller('HotelsCtrl', function($scope, $stateParams, HotelFactory) {
-	console.log(HotelFactory);
-	//$scope.service = Services.get($stateParams.serviceId);
-
+.controller('HotelsCtrl', function($scope, $stateParams, HotelsFactory) {
+	$scope.hotels = HotelsFactory.all();
 })
-.controller('RefectoryCtrl', function($scope, $stateParams, Services) {
-	$scope.service = Services.get($stateParams.serviceId);
+.controller('HotelCtrl', function($scope, $stateParams, HotelsFactory, HotelFactory) {
+	 $scope.hotelrooms = HotelFactory.get($stateParams.hotelId).hotelRooms.RoomList;
+	 $scope.hotel = HotelsFactory.get($stateParams.hotelId);
+	 console.log($scope.hotel);
+})
+.controller('MapCtrl', function($scope, $stateParams, HotelsFactory, HotelFactory) {
+	
+})
+.controller('RefectoryCtrl', function($scope, $stateParams, RefectoryFactory) {
+	$scope.refectories = RefectoryFactory;
 })
 
 .controller('AccountCtrl', function($scope) {

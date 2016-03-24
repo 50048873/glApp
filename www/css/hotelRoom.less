@@ -1,0 +1,62 @@
+@import "variable";
+.item p { 
+    white-space: normal; 
+}
+.line-3 p { 
+	display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.hotelIntro { 
+	a { 
+		text-decoration: none;
+		h1 { 
+			font-size: 1.25em;
+		}
+		p { 
+			color: @666;
+		}
+	}
+}
+.location { 
+	a { 
+		font-size: 1em;
+	}
+	.ion-ios-location { 
+		font-size: 1.25em;
+	}
+	.address { 
+		position: absolute;
+		right: 4em;
+		left: 2em;
+		color: @black;
+	}
+	.map { 
+		position: absolute;
+		right: 10px;
+		font-size: 1em;
+	}
+}
+.pricemd { 
+	text-decoration: line-through;
+}
+/*.item-thumbnail-left {
+    > span { 
+		position: absolute;
+		top: 10px;
+    	left: 10px;
+    	width: 80px;
+    	height: 80px;
+    	overflow: hidden;
+		> img:first-child { 
+			position: static;
+		    top: auto;
+		    left: auto;
+		    max-width: none;
+		    max-height: none;
+		    width: auto;
+		    height: 100%;
+		    transform: translateX(-50%);
+		}
+    }
+}*/

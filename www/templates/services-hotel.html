@@ -1,0 +1,33 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title="酒店">
+  <ion-content>
+  	<div class="padding hotelIntro">
+  		<a href="">
+  			<h1>{{hotel.Title}}</h1>
+  			<p>{{hotel.content}}</p>
+  		</a>
+  		<a href="tel:0551-62691666">0551-62691666</a>
+  	</div>
+  	<div class="padding location">
+  		<a href="#/tab/services/hotel/map">
+	  		<span class="ion-ios-location"></span>
+	  		<span class="address ellipsis">{{hotel.address}}</span>
+	  		<span class="map">地图</span>
+  		</a>
+  	</div>
+	<div class="list">
+		 <div class="item item-thumbnail-left item-button-right" ng-repeat="room in hotelrooms">
+			<img ng-src="{{room.IconAttachments}}">
+			<h2>{{room.Title}}</h2>
+			<p class="f36832">会员价：{{room.price}}</p>
+			<p class="pricemd">门市价：{{room.pricemd}}</p>
+			<a href="" class="button button-positive">预订</a>
+		 </div>
+	</div>
+  </ion-content>
+</ion-view>

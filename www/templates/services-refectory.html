@@ -5,10 +5,13 @@
   The Friends service returns an array of friend data
 -->
 <ion-view view-title="职工食堂">
-  <ion-content class="padding">
-    <img ng-src="{{service.face}}" style="width: 64px; height: 64px">
-    <p>
-      {{service.name}}
-    </p>
+  <ion-content>
+   <div class="list">
+	    <a class="item item-thumbnail-left line-3" ng-repeat="refectory in refectories" href="#">
+	      <img ng-src="{{refectory.IconAttachments}}">
+	      <h2>{{refectory.Title}}</h2>
+	      <p>{{refectory.content}}</p>
+	    </a>
+	</div>
   </ion-content>
 </ion-view>
