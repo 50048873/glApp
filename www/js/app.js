@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+angular.module('starter', ['ionic'])
 
 .run(function($ionicPlatform, $rootScope) {
 	$ionicPlatform.ready(function() {
@@ -122,23 +122,71 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 				}
 			}
 		})
+			// 职工食堂详情
+			.state('tab.refectory-detail', {
+				url: '/services/refectory/detail',
+				views: {
+					'tab-services': {
+						templateUrl: 'templates/services-refectory-detail.html'
+					}
+				}
+			})
 		// 政务搭桥
-		.state('tab.governmentAffair', {
-			url: '/services/governmentAffair',
+		.state('governmentAffair', {
+			url: '/tab/services/governmentAffair',
 			views: {
-				'tab-services': {
-					templateUrl: 'templates/services-governmentAffair.html'
+				'main-view': {
+					templateUrl: 'templates/services-governmentAffair.html',
+					controller: 'GvernmentAffairCtrl'
 				}
 			}
 		})
+			// 政务搭桥详情
+			.state('governmentAffair-detail', {
+				url: '/tab/services/governmentAffair-detail',
+				views: {
+					'main-view': {
+						templateUrl: 'templates/services-governmentAffair-detail.html'
+					}
+				}
+			})
+		// 融资理财
+		.state('tab.financialAffair', {
+			url: '/services/financialAffair',
+			views: {
+				'tab-services': {
+					templateUrl: 'templates/services-financialAffair.html',
+					controller: 'FinancialAffairCtrl'
+				}
+			}
+		})
+			// 融资理财-某个银行理财列表
+			.state('tab.financialAffair-bank', {
+				url: '/services/financialAffair/:bankName',
+				views: {
+					'tab-services': {
+						templateUrl: 'templates/services-financialAffair-bank.html',
+						controller: 'FinancialAffairBankCtrl'
+					}
+				}
+			})
+				// 融资理财-某个银行理财列表-列表详情
+				.state('tab.financialAffair-bank-detail', {
+					url: '/services/financialAffair/bank/:bankId',
+					views: {
+						'tab-services': {
+							templateUrl: 'templates/services-financialAffair-bank-detail.html',
+							controller: 'FinancialAffairBankDetailCtrl'
+						}
+					}
+				})
 
 	// 我
 	.state('tab.account', {
 		url: '/account',
 		views: {
 			'tab-account': {
-				templateUrl: 'templates/tab-account.html',
-				controller: 'AccountCtrl'
+				templateUrl: 'templates/tab-account.html'
 			}
 		}
 	})
@@ -153,6 +201,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 	});
 
 	// if none of the above states are matched, use this as the fallback
-	//$urlRouterProvider.otherwise('/tab/services');
+	$urlRouterProvider.otherwise('/tab/services');
 
 });

@@ -7,11 +7,12 @@
 <ion-view view-title="酒店">
   <ion-content>
   	<div class="padding hotelIntro">
-  		<a href="">
+  		<a href="" class="">
+  			<img ng-src="{{hotel.IconAttachments}}">
   			<h1>{{hotel.Title}}</h1>
-  			<p>{{hotel.content}}</p>
+  			<p class="line-3">{{hotel.content}}</p>
   		</a>
-  		<a href="tel:0551-62691666">0551-62691666</a>
+  		<a href="tel:{{hotel.tel}}">{{hotel.tel}}</a>
   	</div>
   	<div class="padding location">
   		<a href="#/tab/services/hotel/map">
@@ -25,7 +26,7 @@
 			<img ng-src="{{room.IconAttachments}}">
 			<h2>{{room.Title}}</h2>
 			<p class="f36832">会员价：{{room.price}}</p>
-			<p class="pricemd">门市价：{{room.pricemd}}</p>
+			<p class="pricemd" ng-if="room.pricemd">门市价：{{room.pricemd}}</p>
 			<a href="" class="button button-positive">预订</a>
 		 </div>
 	</div>

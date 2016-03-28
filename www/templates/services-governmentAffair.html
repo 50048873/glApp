@@ -1,14 +1,30 @@
 <!--
-  This template loads for the 'tab.friend-detail' state (app.js)
-  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
-  The FriendsCtrl pulls data from the Friends service (service.js)
-  The Friends service returns an array of friend data
+	This template loads for the 'tab.friend-detail' state (app.js)
+	'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+	The FriendsCtrl pulls data from the Friends service (service.js)
+	The Friends service returns an array of friend data
 -->
-<ion-view view-title="政务搭桥">
-  <ion-content class="padding">
-    <img ng-src="{{service.face}}" style="width: 64px; height: 64px">
-    <p>
-      {{service.name}}
-    </p>
-  </ion-content>
+<ion-view view-title="政务搭桥" class="governmentAffair">
+	<ion-content class="padding">
+		<div class="container">
+		<p>绿地集团与包河区区政府达成共识，由包河区政府指派专人进驻企业服务平台进行现场办公，为企业落实各种扶持政策及政策宣传。</p>
+		<h3>线下服务：</h3>
+		<p>（一）扶持政策咨询</p>
+		<p>（1）涉及省、市、区产业及行业扶持政策咨询服务</p>
+		<p>（2）扶持政策资格认定咨询服务</p>
+		<p>（二）企业办事咨询</p>
+		<p>（1）年检年审</p>
+		<p>（2）资质认证</p>
+		<p>（3）财政税收</p>
+		<p>（4）准营准办</p>
+		<h3>线上服务：</h3>
+		<p>设立线上政务通道，建立在线咨询服务。</p>
+	</div>
+	</ion-content>
+	<ion-footer-bar>
+		<a href="#/tab/services/governmentAffair-detail" ng-repeat="government in governments">
+			<img ng-src="{{government.IconAttachments}}" alt="" style="width:30px;height:30px;">
+			<h6>{{government.Title}}</h6>
+		</a>
+	</ion-footer-bar>
 </ion-view>

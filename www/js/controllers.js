@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('starter')
 
 .controller('ServicesCtrl', function($scope, Services) {
 	// With the new view caching in Ionic, Controllers are only called
@@ -21,17 +21,25 @@ angular.module('starter.controllers', [])
 .controller('HotelCtrl', function($scope, $stateParams, HotelsFactory, HotelFactory) {
 	 $scope.hotelrooms = HotelFactory.get($stateParams.hotelId).hotelRooms.RoomList;
 	 $scope.hotel = HotelsFactory.get($stateParams.hotelId);
-	 console.log($scope.hotel);
 })
 .controller('MapCtrl', function($scope, $stateParams, HotelsFactory, HotelFactory) {
 	
 })
 .controller('RefectoryCtrl', function($scope, $stateParams, RefectoryFactory) {
 	$scope.refectories = RefectoryFactory;
+	console.log($scope.refectories);
 })
-
-.controller('AccountCtrl', function($scope) {
-	$scope.settings = {
-		enableFriends: true
-	};
+.controller('GvernmentAffairCtrl', function($scope, $stateParams, GovernmentFactory) {
+	$scope.governments = GovernmentFactory.Governmentsupport;
+})
+.controller('FinancialAffairCtrl', function($scope, $stateParams, FinancialFactory) {
+	$scope.banks = FinancialFactory.getBank();
+	
+})
+.controller('FinancialAffairBankCtrl', function($scope, $stateParams, FinancialFactory) {
+	$scope.bankServices = FinancialFactory.getBankBusiness($stateParams.bankName);
+	$scope.bankName = $stateParams.bankName;
+})
+.controller('FinancialAffairBankDetailCtrl', function($scope, $stateParams, FinancialDetailFactory) {
+	$scope.bankServiceDetail = FinancialDetailFactory.getDetail($stateParams.bankId);
 });
