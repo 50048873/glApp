@@ -42,4 +42,11 @@ angular.module('starter')
 })
 .controller('FinancialAffairBankDetailCtrl', function($scope, $stateParams, FinancialDetailFactory) {
 	$scope.bankServiceDetail = FinancialDetailFactory.getDetail($stateParams.bankId);
+})
+.controller('JoinusAffairCtrl', function($scope, $stateParams, JoinusFactory) {
+	$scope.jobs = JoinusFactory.get();
+})
+.controller('JoinusDetailAffairCtrl', function($scope, $stateParams, JoinusFactory) {
+	$scope.job = JoinusFactory.get($stateParams.id)
+	console.log(JoinusFactory.get($stateParams.id));
 });

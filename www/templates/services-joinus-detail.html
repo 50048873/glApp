@@ -4,9 +4,9 @@
 	The FriendsCtrl pulls data from the Friends service (service.js)
 	The Friends service returns an array of friend data
 -->
-<ion-view view-title="{{bankServiceDetail.Title}}" class="financialAffair-detail">
+<ion-view view-title="{{job.Title}}" class="joinus">
 	<ion-content class="padding">
-		<p>{{bankServiceDetail.content}}</p>
-		<a href="tel:{{bankServiceDetail.tel}}" ng-if="bankServiceDetail.tel" class="button button-small button-positive consult-btn">咨询</a>
+		<div ng-bind-html="job.content" class="html"></div>
+		<a href="tel:{{job.tel}}" ng-if="job.tel" class="button button-small button-positive consult-btn">咨询</a>
 	</ion-content>
 </ion-view>

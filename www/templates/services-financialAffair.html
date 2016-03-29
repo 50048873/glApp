@@ -4,7 +4,7 @@
 	The FriendsCtrl pulls data from the Friends service (service.js)
 	The Friends service returns an array of friend data
 -->
-<ion-view view-title="融资理财">
+<ion-view view-title="融资理财" class="financialAffair">
 	<ion-content>
 		<ion-list>
 			<ion-item class="item item-avatar item-icon-right" ng-repeat="bank in banks" type="item-text-wrap" href="#/tab/services/financialAffair/{{bank.bank}}">
@@ -13,5 +13,10 @@
 				<i class="icon ion-chevron-right icon-accessory"></i>
 			</ion-item>
 		</ion-list>
+			<!--a class="item item-avatar item-icon-right" ng-repeat="bank in banks" href="#/tab/services/financialAffair/{{bank.bank}}">
+				<img ng-src="{{bank.BankUrl}}">
+				<h2 style="line-height: 40px;">{{bank.bank}}</h2>
+				<i class="icon ion-chevron-right icon-accessory"></i>
+			</a-->
 	</ion-content>
 </ion-view>

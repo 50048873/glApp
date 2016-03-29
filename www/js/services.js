@@ -827,442 +827,247 @@ angular.module('starter')
 				"ID": "363188c5-d9b4-4a5b-b89c-b60b0b81a63b",
 				"content": "对以招商银行为主要结算银行且结算量稳定的小企业客户，依据其在我行结算的收款量，采取信用方式发放的人民币流动资金授信业务。",
 				"Title": "结算贷",
-				"tel": "0551-63450813",
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "5559a89c-e7e6-43ad-8100-4911802fd7df",
 				"content": "银行理财产品办理",
 				"Title": "银行理财产品办理",
-				"tel": "0551—63450813",
+				"tel": "0551—63450813"
 			},
 			{
 				"ID": "59f220db-3406-4ed4-9ecf-be0d5a15b0c2",
-				"content": "",
+				"content": "银行业务、政策宣传",
 				"Title": "银行业务、政策宣传",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635775854262466048.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635775854262466048.png",
-				"tel": "0551—63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/59f220db-3406-4ed4-9ecf-be0d5a15b0c2",
-				"bank": "招商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814767423717658.png"
+				"tel": "0551—63450813"
 			},
 			{
 				"ID": "772480af-59d8-4848-b293-d7337743684f",
-				"content": "",
+				"content": "装有POS机，且近3个月月均刷卡收款不低于10万，信用良好，3年持续经营经验，本地有房,刷卡流量越大，贷款额度越大",
 				"Title": "POS商户贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751494460975509.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751494460975509.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/772480af-59d8-4848-b293-d7337743684f",
-				"bank": "招商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814767423717658.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "84156dca-b7ce-4055-a4a4-a56ca96d2295",
-				"content": "",
+				"content": " 已在招商银行办理了住房或商用房抵押贷款（包括个人住房贷款、个人商业用房贷款、房产抵押的个人消费贷款、个人抵押购房贷款和足额抵押个人经营贷款），信用良好，2年持续经营经验，在原贷款基础上额外增加贷款额度",
 				"Title": "配套贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751492427928140.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751492427928140.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/84156dca-b7ce-4055-a4a4-a56ca96d2295",
-				"bank": "招商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814767423717658.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "a50bf240-d52b-42ea-8e9c-27d7d9f88565",
-				"content": "",
+				"content": "对公、对私开销户业务",
 				"Title": "对公、对私开销户业务",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635775852673363782.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635775852673363782.png",
-				"tel": "0551—63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/a50bf240-d52b-42ea-8e9c-27d7d9f88565",
-				"bank": "招商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814767423717658.png"
+				"tel": "0551—63450813"
 			},
 			{
 				"ID": "acc99553-7130-4273-bbed-0483a8a0fb16",
-				"content": "",
+				"content": "代收代缴业务办理",
 				"Title": "代收代缴业务办理",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635775853249516349.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635775853249516349.png",
-				"tel": "0551—63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/acc99553-7130-4273-bbed-0483a8a0fb16",
-				"bank": "招商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814767423717658.png"
+				"tel": "0551—63450813"
 			},
 			{
 				"ID": "c56e5528-a29c-4108-a02a-bad1cd78e183",
-				"content": "",
+				"content": "信用良好，3年持续经营经验，本地有房，本地户籍或夫妻双方在本地居住和工作。无抵押，免担保，有房、有家、有生意，就有信用贷。",
 				"Title": "信用贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751490404242199.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751490404242199.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/c56e5528-a29c-4108-a02a-bad1cd78e183",
-				"bank": "招商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814767423717658.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "f66072dc-f3f7-4619-b058-745fd0e38f6d",
-				"content": "",
+				"content": "招商银行对于诚信、按时、足额纳税的优质小企业给予信用方式综合授信。",
 				"Title": "诚信纳税贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751488421187839.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751488421187839.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/f66072dc-f3f7-4619-b058-745fd0e38f6d",
-				"bank": "招商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814767423717658.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "95814757-c863-4eb1-8fe2-1adf8bb36716",
 				"content": "代收代缴业务",
 				"Title": "代收代缴业务",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635811931782134475.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635811931782134475.png",
-				"tel": "15556952916",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/95814757-c863-4eb1-8fe2-1adf8bb36716",
-				"bank": "广发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814768843156514.png"
+				"tel": "15556952916"
 			},
 			{
 				"ID": "b81a04a7-dda9-4d2b-b025-feac24b97190",
-				"content": "",
+				"content": "个人免抵押免担保类信用贷款",
 				"Title": "个人免抵押信款",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635811920479890567.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635811920479890567.png",
-				"tel": "15556952916",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/b81a04a7-dda9-4d2b-b025-feac24b97190",
-				"bank": "广发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814768843156514.png"
+				"tel": "15556952916"
 			},
 			{
 				"ID": "c558fe70-9814-4d24-9962-d9fe03604ac3",
-				"content": "",
+				"content": "个人随借随还抵押类贷款",
 				"Title": "个人随借随还抵押类贷款",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635811930856057281.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635811930856057281.png",
-				"tel": "15556952916",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/c558fe70-9814-4d24-9962-d9fe03604ac3",
-				"bank": "广发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814768843156514.png"
+				"tel": "15556952916"
 			},
 			{
 				"ID": "693548f9-491f-41cd-a651-50850ef9719f",
 				"content": "个人信用卡业务",
 				"Title": "个人信用卡业务",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635811932334028576.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635811932334028576.png",
-				"tel": null,
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/693548f9-491f-41cd-a651-50850ef9719f",
-				"bank": "广发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814768843156514.png"
+				"tel": null
 			},
 			{
 				"ID": "2ae58a1e-ea83-462c-befa-407812ddf1bc",
-				"content": "",
+				"content": "高收益理财",
 				"Title": "高收益理财",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635811907400103142.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635811907400103142.png",
-				"tel": "15556952916",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/2ae58a1e-ea83-462c-befa-407812ddf1bc",
-				"bank": "广发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814768843156514.png"
+				"tel": "15556952916"
 			},
 			{
 				"ID": "4ebd0509-6d70-4aa1-8758-37745f89974c",
-				"content": "",
+				"content": "POS机办理",
 				"Title": "POS机办理",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751606425081082.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751606425081082.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/4ebd0509-6d70-4aa1-8758-37745f89974c",
-				"bank": "徽商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769399091690.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "255356c2-be72-4cc4-a73c-34854659a535",
-				"content": "",
+				"content": "投标保函、履约保函、信贷证明、委托贷款、财务顾问等",
 				"Title": "投标保函、履约保函、信贷证明、委托贷款、财务顾问等",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751604108325970.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751604108325970.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/255356c2-be72-4cc4-a73c-34854659a535",
-				"bank": "徽商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769399091690.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "1229afab-cbb1-46bf-8c00-c090ecd81de2",
-				"content": "",
+				"content": "小企业易保贷",
 				"Title": "小企业易保贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751588394654244.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751588394654244.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/1229afab-cbb1-46bf-8c00-c090ecd81de2",
-				"bank": "徽商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769399091690.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "6d5e8162-0597-47fb-85d2-555c1aec6574",
-				"content": "",
+				"content": "小企业固定资产购置贷款",
 				"Title": "小企业固定资产购置贷款",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751601344063422.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751601344063422.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/6d5e8162-0597-47fb-85d2-555c1aec6574",
-				"bank": "徽商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769399091690.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "702371d4-f03f-4758-8d71-94bf96dce904",
-				"content": "",
+				"content": "政府采购合同融资、出口企业专项担保资金担保贷款、应收账款质押贷款",
 				"Title": "政府采购合同融资、出口企业专项担保资金担保贷款、应收账款质押贷款",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751599544421091.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751599544421091.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/702371d4-f03f-4758-8d71-94bf96dce904",
-				"bank": "徽商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769399091690.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "7c63d317-eec7-4534-b490-54c70c83a94a",
-				"content": "",
+				"content": "小企业快捷贷",
 				"Title": "小企业快捷贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751598067908180.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751598067908180.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/7c63d317-eec7-4534-b490-54c70c83a94a",
-				"bank": "徽商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769399091690.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "9efe1f0e-2490-43ff-a251-05e66fd38fcd",
-				"content": "",
+				"content": "小企业商务卡",
 				"Title": "小企业商务卡",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751593401156803.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751593401156803.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/9efe1f0e-2490-43ff-a251-05e66fd38fcd",
-				"bank": "徽商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769399091690.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "d1d39d66-87a1-49a3-b973-7a4c44663483",
-				"content": "",
+				"content": "个人理财业务",
 				"Title": "个人理财业务",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751605149981391.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751605149981391.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/d1d39d66-87a1-49a3-b973-7a4c44663483",
-				"bank": "徽商银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769399091690.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "d686daa6-e092-4745-b1b9-f275f84ad6f7",
-				"content": "",
+				"content": "客户提供建设银行认可的足够有效的抵(质)押财产和特定保证的基础上,高效、快捷办理流动资金贷款。",
 				"Title": "速贷通",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751581749108617.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751581749108617.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/d686daa6-e092-4745-b1b9-f275f84ad6f7",
-				"bank": "建设银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769054430291.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "ad898fdc-d1e2-401a-b00e-91738db46a78",
-				"content": "",
+				"content": "对公、对私开销户业务",
 				"Title": "对公、对私开销户业务",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635775847345714724.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635775847345714724.png",
-				"tel": "0551—63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/ad898fdc-d1e2-401a-b00e-91738db46a78",
-				"bank": "建设银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769054430291.png"
+				"tel": "0551—63450813"
 			},
 			{
 				"ID": "71c4b443-e541-4637-842d-1004d24bc72b",
-				"content": "",
+				"content": "指向符合建设银行信用贷款条件的企业客户办理采用企业主及其配偶承担连带保证或以信用方式发放的小额信用贷款。",
 				"Title": "信用贷款",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751575834219012.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751575834219012.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/71c4b443-e541-4637-842d-1004d24bc72b",
-				"bank": "建设银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769054430291.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "20e5fa7b-5f66-4b0d-85ce-28d94ede1d1e",
-				"content": "",
+				"content": "建设银行为企业提供专项用于购置生产经营所需的商用房、办公房、厂房等固定资产贷款支持。",
 				"Title": "小企业固定资产购置贷款",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751580742015912.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751580742015912.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/20e5fa7b-5f66-4b0d-85ce-28d94ede1d1e",
-				"bank": "建设银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769054430291.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "2441573d-cf64-4da5-a83c-b6d58b933872",
-				"content": "",
+				"content": "银行业务、政策宣传",
 				"Title": "银行业务、政策宣传",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635775851000755551.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635775851000755551.png",
-				"tel": "0551—63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/2441573d-cf64-4da5-a83c-b6d58b933872",
-				"bank": "建设银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769054430291.png"
+				"tel": "0551—63450813"
 			},
 			{
 				"ID": "582d6ef8-1f23-4a0b-b767-05a096a1bdb2",
-				"content": "",
+				"content": "指建设银行为安徽省政府采购平台中标客户办理的，以中标合同为融资依据的贷款业务。",
 				"Title": "政府采购贷款",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751577460571306.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751577460571306.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/582d6ef8-1f23-4a0b-b767-05a096a1bdb2",
-				"bank": "建设银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769054430291.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "5f255558-ee56-40b8-842f-92b0d0d6d1c3",
-				"content": "",
+				"content": "代收代缴业务办理",
 				"Title": "代收代缴业务办理",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635775849918450339.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635775849918450339.png",
-				"tel": "0551—63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/5f255558-ee56-40b8-842f-92b0d0d6d1c3",
-				"bank": "建设银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769054430291.png"
+				"tel": "0551—63450813"
 			},
 			{
 				"ID": "5fde015a-342d-43ad-bd4e-4a5623dc15aa",
-				"content": "",
+				"content": "建设银行提前为企业客户进行额度授信,在核定的额度及有效期内,可以办理贷款、承兑、保证的等表内外授信业务.一次授信、多项选择。",
 				"Title": "成长之路",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751586990615516.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751586990615516.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/5fde015a-342d-43ad-bd4e-4a5623dc15aa",
-				"bank": "建设银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769054430291.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "6762c7f0-6dad-4822-95ad-e7ffcb71a2d1",
-				"content": "",
+				"content": "银行理财产品办理",
 				"Title": "银行理财产品办理",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635775850565188925.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635775850565188925.png",
-				"tel": "0551—63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/6762c7f0-6dad-4822-95ad-e7ffcb71a2d1",
-				"bank": "建设银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769054430291.png"
+				"tel": "0551—63450813"
 			},
 			{
 				"ID": "1dce7088-5d30-4ad8-8e32-e527cf47d4f9",
-				"content": "",
+				"content": "小额信用贷",
 				"Title": "小额信用贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751556855342963.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751556855342963.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/1dce7088-5d30-4ad8-8e32-e527cf47d4f9",
-				"bank": "浦发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769223040780.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "107c13a0-f905-4de5-b1fd-3b91134f3f4e",
-				"content": "",
+				"content": "账款贷",
 				"Title": "账款贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751553662324329.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751553662324329.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/107c13a0-f905-4de5-b1fd-3b91134f3f4e",
-				"bank": "浦发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769223040780.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "458648fd-8ef2-4dd9-9f7d-d8466049e553",
-				"content": "",
+				"content": "微小宝、组合贷",
 				"Title": "微小宝、组合贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751556031592469.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751556031592469.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/458648fd-8ef2-4dd9-9f7d-d8466049e553",
-				"bank": "浦发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769223040780.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "48fed937-22e4-4abe-932a-082cef4e82cc",
-				"content": "",
+				"content": "结算贷",
 				"Title": "结算贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751554491085909.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751554491085909.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/48fed937-22e4-4abe-932a-082cef4e82cc",
-				"bank": "浦发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769223040780.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "6c02f8d5-b745-44e6-861d-1732137f61e6",
-				"content": "",
+				"content": "联贷联保、信用培养计划、共赢共盟",
 				"Title": "联贷联保、信用培养计划、共赢共盟",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751574856618123.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751574856618123.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/6c02f8d5-b745-44e6-861d-1732137f61e6",
-				"bank": "浦发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769223040780.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "85135be2-e00a-4213-b4ed-b22de8d07741",
-				"content": "",
+				"content": "租金贷",
 				"Title": "租金贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751495744335679.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751495744335679.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/85135be2-e00a-4213-b4ed-b22de8d07741",
-				"bank": "浦发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769223040780.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "90324758-f697-439a-809b-57d76e81d765",
-				"content": "",
+				"content": "捷易贷",
 				"Title": "捷易贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751552798090667.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751552798090667.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/90324758-f697-439a-809b-57d76e81d765",
-				"bank": "浦发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769223040780.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "9a00dca2-a754-4ca8-a762-919b42aabf41",
-				"content": "",
+				"content": "网络循环贷",
 				"Title": "网络循环贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751557515354946.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751557515354946.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/9a00dca2-a754-4ca8-a762-919b42aabf41",
-				"bank": "浦发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769223040780.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "c060bbbc-64c2-4014-91ff-d0eda14cc149",
-				"content": "",
+				"content": "抵押循环贷",
 				"Title": "抵押循环贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751549610611443.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751549610611443.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/c060bbbc-64c2-4014-91ff-d0eda14cc149",
-				"bank": "浦发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769223040780.png"
+				"tel": "0551-63450813"
 			},
 			{
 				"ID": "f8ad440f-7872-4042-9e1a-bf701ab115d4",
-				"content": "",
+				"content": "积分贷",
 				"Title": "积分贷",
-				"Attachments": "http://220.249.79.2:18887/Images/RZLC/635751559708042191.png",
-				"IconAttachments": "http://220.249.79.2:18887/Images/RZLC/635751559708042191.png",
-				"tel": "0551-63450813",
-				"Url": "http://220.249.79.2:18887/CommonData/viewpage/f8ad440f-7872-4042-9e1a-bf701ab115d4",
-				"bank": "浦发银行",
-				"BankUrl": "http://220.249.79.2:18887/Images/RZLC/635814769223040780.png"
+				"tel": "0551-63450813"
 			}
 		],
 		"ListCount": 41
@@ -1276,6 +1081,88 @@ angular.module('starter')
 				}
 			}
 			return null;
+		}
+	};
+})
+.factory('JoinusFactory', function() { 
+	var jobs = {
+	    "ComanyTrain": [
+	        {
+	            "ID": "9ce30088-f31f-4f99-bdec-841a746c33c9",
+	            "content": "<p>招聘人数： 若干名</p><p>要求：大专及以上学历，专业不限，30周岁以下，容貌端正，形象气质佳，亲和力强，有较强的沟能能力和良好的团队精神；具有相关房地产销售工作经验，销售业绩优秀者可优先考虑。</p>",
+	            "Title": "置业顾问 ",
+	            "Attachments": "http://220.249.79.2:18887/Images/QYZPH/635762776484208984.jpg",
+	            "IconAttachments": "",
+	            "address": null,
+	            "contacts": null,
+	            "tel": "0551-63455971",
+	            "Url": "http://220.249.79.2:18887/CommonData/viewpage/9ce30088-f31f-4f99-bdec-841a746c33c9",
+	            "Work": "合肥",
+	            "recruiters": "绿地控股集团安徽房地产事业部",
+	            "money": "面议",
+	            "country": null
+	        },
+	        {
+	            "ID": "7ed7ba33-582f-4a85-93fc-720569c758d3",
+	            "content": "<p>招聘人数：若干名</p><p>要求：30左右，房地产、市场营销、公共关系类相关专业大专及以上学历，3年商办销售经验或奢侈品销售，金融、保险等高端大宗产品销售经验，容貌端正，形象气质佳，亲和力强，有较强的沟能能力和良好的团队精神；</p>",
+	            "Title": "大客户经理",
+	            "Attachments": "http://220.249.79.2:18887/Images/QYZPH/635751463891025588.jpg",
+	            "IconAttachments": "",
+	            "address": null,
+	            "contacts": null,
+	            "tel": "0551-63455971",
+	            "Url": "http://220.249.79.2:18887/CommonData/viewpage/7ed7ba33-582f-4a85-93fc-720569c758d3",
+	            "Work": "合肥",
+	            "recruiters": "绿地控股集团安徽房地产事业部",
+	            "money": "面议",
+	            "country": null
+	        },
+	        {
+	            "ID": "1f2dba94-07ae-45fb-ae83-8222c8ad1180",
+	            "content": "<p>招聘人数： 3名</p><p>要求：本科及以上学历，5年以上房地产营销管理经验，协助领导进行市场开拓，重点客户维护，项目运营管理；精通房地产策划和销售执行管理，具有较好的规划统筹能力、计划执行能力和判断决策能力，有较强的公关能力；熟悉房地产开发全程中投资、研究、土地、规划、设计、策划、销售、推广等系列环节，能够带领团队完成公司下达的营销任务，具有和大品牌开发商合作经验者优先。</p><p>招聘邮箱: <a href='mailto:ahldhr@163.com'>ahldhr@163.com</a></p>",
+	            "Title": "项目营销总监",
+	            "Attachments": "http://220.249.79.2:18887/Images/QYZPH/635751462718822579.jpg",
+	            "IconAttachments": "",
+	            "address": null,
+	            "contacts": null,
+	            "tel": "0551-63455971",
+	            "Url": "http://220.249.79.2:18887/CommonData/viewpage/1f2dba94-07ae-45fb-ae83-8222c8ad1180",
+	            "Work": "合肥",
+	            "recruiters": "绿地控股集团安徽房地产事业部",
+	            "money": "面议",
+	            "country": null
+	        },
+	        {
+	            "ID": "5bb728b4-47e8-4132-be45-726e3bb03bbf",
+	            "content": "<p>1、30岁以上，房地产、市场营销、公共关系类相关专业专科及以上学历，具有8年以上招商经验，6年以上商业地产项目招商管理工作经验，能独立谈判主力商家；</p><p>2、具有丰富餐饮、休闲、娱乐、百货、超市、儿童产业、文化创意产业等资源；</p><p>3、良好的决策/分析/管理和协调能力，思路敏捷，沟通谈判能力强，善于整合各类社会资源；</p><p>4、职业素养高、具创新意识，品行端正、忠诚企业，无不良记录，身心健康；</p><p>5、熟悉安徽地区商业发展状况，并熟练掌握国际成熟商业运营模式；</p><p>&nbsp;</p><p>岗位职责：</p><p>1、熟悉大型都市综合体的招商管理流程并独立带领团队开展招商工作；</p><p>2、负责招商团队的组建、培训及日常管理；</p><p>3、负责组织开展商业项目定位与市场研究、策划推广、招商管理和商业运营管理工作，具有独立撰写商业运营报告能力，为商业前期策划提供相关建议；</p>",
+	            "Title": "招商总监",
+	            "Attachments": "http://220.249.79.2:18887/Images/QYZPH/635751461212467966.jpg",
+	            "IconAttachments": "",
+	            "address": null,
+	            "contacts": null,
+	            "tel": "0551-63455971",
+	            "Url": "http://220.249.79.2:18887/CommonData/viewpage/5bb728b4-47e8-4132-be45-726e3bb03bbf",
+	            "Work": "合肥",
+	            "recruiters": "绿地控股集团安徽房地产事业部",
+	            "money": "面议",
+	            "country": null
+	        }
+	    ],
+	    "ListCount": 4
+	};
+	var arr = jobs.ComanyTrain;
+	return { 
+		get: function(id) { 
+			if (!arguments.length) { 
+				return arr;
+			} else { 
+				for (var i = 0; i < arr.length; i++) { 
+					if (arr[i].ID === id) { 
+						return arr[i];
+					}
+				}
+				return null;
+			}
 		}
 	};
 });

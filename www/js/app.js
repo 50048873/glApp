@@ -180,6 +180,26 @@ angular.module('starter', ['ionic'])
 						}
 					}
 				})
+		// 企业招聘
+		.state('tab.joinus', {
+			url: '/services/joinus',
+			views: {
+				'tab-services': {
+					templateUrl: 'templates/services-joinus.html',
+					controller: 'JoinusAffairCtrl'
+				}
+			}
+		})
+			// 企业招聘详情
+			.state('tab.joinus-detail', {
+				url: '/services/joinus/:id',
+				views: {
+					'tab-services': {
+						templateUrl: 'templates/services-joinus-detail.html',
+						controller: 'JoinusDetailAffairCtrl'
+					}
+				}
+			})
 
 	// 我
 	.state('tab.account', {
