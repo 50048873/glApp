@@ -48,7 +48,8 @@ angular.module('starter', ['ionic'])
 		abstract: true,
 		views: {
 			'main-view': {
-				templateUrl: 'templates/tabs.html'
+				templateUrl: 'templates/tabs.html',
+				controller: 'HomeCtrl'
 			}
 		}
 		
@@ -132,20 +133,20 @@ angular.module('starter', ['ionic'])
 				}
 			})
 		// 政务搭桥
-		.state('governmentAffair', {
-			url: '/tab/services/governmentAffair',
+		.state('tab.governmentAffair', {
+			url: '/services/governmentAffair',
 			views: {
-				'main-view': {
+				'tab-services': {
 					templateUrl: 'templates/services-governmentAffair.html',
 					controller: 'GvernmentAffairCtrl'
 				}
 			}
 		})
 			// 政务搭桥详情
-			.state('governmentAffair-detail', {
-				url: '/tab/services/governmentAffair-detail',
+			.state('tab.governmentAffair-detail', {
+				url: '/services/governmentAffair-detail',
 				views: {
-					'main-view': {
+					'tab-services': {
 						templateUrl: 'templates/services-governmentAffair-detail.html'
 					}
 				}

@@ -1,9 +1,3 @@
-<!--
-	This template loads for the 'tab.friend-detail' state (app.js)
-	'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
-	The FriendsCtrl pulls data from the Friends service (service.js)
-	The Friends service returns an array of friend data
--->
 <ion-view view-title="政务搭桥" class="governmentAffair">
 	<ion-content class="padding">
 		<div class="container">
@@ -21,7 +15,7 @@
 		<p>设立线上政务通道，建立在线咨询服务。</p>
 	</div>
 	</ion-content>
-	<ion-footer-bar>
+	<ion-footer-bar class="no-tabs">
 		<a href="#/tab/services/governmentAffair-detail" ng-repeat="government in governments">
 			<img ng-src="{{government.IconAttachments}}" alt="" style="width:30px;height:30px;">
 			<h6>{{government.Title}}</h6>

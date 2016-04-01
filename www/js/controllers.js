@@ -1,5 +1,7 @@
 angular.module('starter')
-
+.controller('HomeCtrl', function($rootScope) { 
+	//$rootScope.tabsIsvisible = true;
+})
 .controller('ServicesCtrl', function($scope, Services) {
 	// With the new view caching in Ionic, Controllers are only called
 	// when they are recreated or on app start, instead of every page change.
@@ -27,10 +29,16 @@ angular.module('starter')
 })
 .controller('RefectoryCtrl', function($scope, $stateParams, RefectoryFactory) {
 	$scope.refectories = RefectoryFactory;
-	console.log($scope.refectories);
 })
-.controller('GvernmentAffairCtrl', function($scope, $stateParams, GovernmentFactory) {
+.controller('GvernmentAffairCtrl', function($rootScope, $scope, $stateParams, GovernmentFactory) {
+	//$rootScope.tabsIsvisible = false;
 	$scope.governments = GovernmentFactory.Governmentsupport;
+	$scope.$on('$ionicView.loaded', function() { 
+		document.getElementsByClassName('tabs')[0].style.visibility = 'hidden';
+	});
+	$scope.$on('$ionicView.unloaded', function() { 
+		document.getElementsByClassName('tabs')[0].style.visibility = 'visible';
+	});
 })
 .controller('FinancialAffairCtrl', function($scope, $stateParams, FinancialFactory) {
 	$scope.banks = FinancialFactory.getBank();
@@ -48,5 +56,4 @@ angular.module('starter')
 })
 .controller('JoinusDetailAffairCtrl', function($scope, $stateParams, JoinusFactory) {
 	$scope.job = JoinusFactory.get($stateParams.id)
-	console.log(JoinusFactory.get($stateParams.id));
 });
